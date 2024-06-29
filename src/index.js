@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import TodoList from './TodoList/TodoList';
 import Counter from './counterApp/counter';
 import UserProfileCard from './Profile card/UseProfilecard';
+import FormComponent from './Formcomponent/Formcomponent';
+import ContactForm from './Formvalidation/Formvalidation';
 
 
 
@@ -18,6 +20,8 @@ root.render(
     <TodoList />
     <Counter />
     <UserProfileCard name="abel" age="27" email="abel@gmail.com"/>
+    <FormComponent />
+    <ContactForm />
 
     
 

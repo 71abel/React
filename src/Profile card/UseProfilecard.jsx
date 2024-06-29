@@ -5,8 +5,8 @@ function UserProfileCard (props){
     return(
         <>
            <div>
-            <span>name: {props.name}</span>
-            <span>age: {props.age}</span>
+            <span>name: {props.name}</span><br/>
+            <span>age: {props.age}</span><br/>
             <span>email: {props.email}</span>
            </div>
         </>
