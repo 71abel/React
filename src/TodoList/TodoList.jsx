@@ -4,7 +4,7 @@ import List from "./List";
 
 function TodoList(){
     const[items,setItems] = useState([]);
-    const[checked,setChecked] = useState(false);
+    const[checked,setChecked] = useState(false);    // TODO
     function handleAdd(task){
         console.log(task);
         setItems([
@@ -12,7 +12,7 @@ function TodoList(){
             {
                 id:items.length+1,
                 name:task,
-                done:false,
+                done:false,                  
             }
      ]
 );
